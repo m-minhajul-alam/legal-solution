@@ -32,11 +32,11 @@
 
     <!-- row css styles -->
     <style>
-        .poppins {
+        .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
 
-        .eb-garamond {
+        .font-eb-garamond {
             font-family: 'EB Garamond', serif;
         }
     </style>
@@ -59,7 +59,7 @@
                                 </svg>
                             </label>
                             <ul tabindex="0"
-                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-poppins">
                                 <li><a>Home</a></li>
                                 <li>
                                     <a>Services</a>
@@ -94,7 +94,7 @@
                         <a class="btn btn-ghost normal-case text-xl"><img src="./images/logo.png" alt=""></a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
-                        <ul class="menu menu-horizontal px-1">
+                        <ul class="menu menu-horizontal px-1  font-poppins">
                             <li><a>Home</a></li>
                             <li tabindex="0">
                                 <details>
@@ -135,11 +135,35 @@
                         </ul>
                     </div>
                     <div class="navbar-end">
-                        <a class="btn bg-btn-bg">Free Consultation</a>
+                        <a class="btn bg-btn-bg text-lg font-poppins font-semibold">Free Consultation</a>
                     </div>
                 </div>
             </div>
         </nav>
+
+        <!-- banner section -->
+        <section>
+            <!-- banner container -->
+            <div class="max-w-screen-xl mx-auto">
+                <!-- banner contant -->
+                <div class="hero h-[550px]" style="background-image: url(./images/banner.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                        <div>
+                            <h1 class="mb-5 text-7xl font-extrabold font-eb-garamond">We Provide Effective <br>
+                                Legal Solutions</h1>
+                            <p class="mb-5 font-poppins">There are many variations of passages of Lorem Ipsum available,
+                                but the majority <br> have suffered alteration in some form, by injected humour.</p>
+                            <div>
+                                <input class="p-3 pr-16 outline-none font-poppins" type="search" name="" id=""
+                                    placeholder="Search your services">
+                                <button class="btn bg-btn-bg text-xl font-semibold font-poppins">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </header>
     <main>
